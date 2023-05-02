@@ -20,14 +20,15 @@ This scraper is under active development. If you have any feature requests you c
 
 ## Input Parameters
 
-The input of this scraper should be JSON containing the list of pages on edx that should be visited. Required fields are:
+The input of this scraper should be JSON containing the list of pages on edx that should be visited. Possible fields are:
 
-| Field                | Type    | Description                                                                                               |
-| -------------------- | ------- | --------------------------------------------------------------------------------------------------------- |
-| maxItems             | Integer | (optional) You can limit scraped properties. This should be useful when you search through the big lists. |
-| search               | String  | (optional) Search keyword that you would like to search the courses in.                              |
-| language               | String  | (optional) Scrape the results by the course language.                              |
-| proxy                | Object  | Proxy configuration                                                                                       |
+- `search`: (Optional) (String) Search keyword that you would like to search the courses in.
+
+- `language`: (Optional) (String) Scrape the results by the course language.
+
+- `maxItems`: (Optional) (Number) You can limit scraped items. This should be useful when you search through the big lists or search results.
+
+- `proxy`: (Required) (Proxy Object) Proxy configuration.
 
 This solution requires the use of **Proxy servers**, either your own proxy servers or you can use <a href="https://www.apify.com/docs/proxy">Apify Proxy</a>.
 
