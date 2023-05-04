@@ -107,3 +107,6 @@ The structure of each item in edx listings looks like this:
 	"url": "https://learning.edx.org/course/course-v1:MITx+15.662x+1T2020/home."
 }
 ```
+
+## Contact
+Please visit us through [epctex.com](https://epctex.com) to see all the products that is available for you. If you are looking for any custom integration or so, please reach out to us through the chat box in [epctex.com](https://epctex.com). In need of support? [devops@epctex.com](mailto:devops@epctex.com) is at your service.
